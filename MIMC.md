@@ -1,12 +1,10 @@
 ##### MIMC：最小乘法复杂度
 
 MIMC的加密函数为：
-
-![image-20241005042917669](C:\Users\Jewel\AppData\Roaming\Typora\typora-user-images\image-20241005042917669.png)
-
+![image](https://github.com/user-attachments/assets/c81abb2c-daca-4778-903f-958c702c1235)
 x∈Fq是明文，r是轮数，Fi is the round function for round i≥0，k∈Fqk∈Fq is the key，每一个Fi(同样作为实现方法)定义为
 
-![image-20241005042823768](C:\Users\Jewel\AppData\Roaming\Typora\typora-user-images\image-20241005042823768.png)
+![image](https://github.com/user-attachments/assets/daad9eff-c63a-4593-8ad4-167c8fb3b43b)
 
 随机常量在MIMC实例化时被选择为有限域Fq中的随机元素，然后固定下来。
 
