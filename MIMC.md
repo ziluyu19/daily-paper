@@ -19,7 +19,7 @@ x∈Fq是明文，r是轮数，Fi is the round function for round i≥0，k∈Fq
 哈希函数电路实现：
 
 ```
-pragma circom  2.0.0;
+pragma circom  2.1.6;
 
 template MIMC5() {
 
